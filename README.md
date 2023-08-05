@@ -21,13 +21,16 @@ The project is compatible with Linux and any Darwin (macOS) machines.
 
 ## Getting started
   If you *don't* have the nextflow on your local machine:\
-      ``` curl -s https://get.nextflow.io | bash ```\
-                            or \
-      ``` wget -qO- https://get.nextflow.io | bash ``` \
-      after downloading need to make nextflow executable\
-      ```chmod +x nextflow```\
-      and add it to the PATH environment variable
-  If you already have nextflow in your PATH:\
+      - Option 1:  
+        ``` curl -s https://get.nextflow.io | bash ```\
+      - Option 2:  
+        ``` wget -qO- https://get.nextflow.io | bash ``` \
+      * After downloading Nextflow, make it executable with the following command:\
+        ```chmod +x nextflow```\
+      * Finally, add it to the PATH environment variable.
+
+## Clone Repository
+  If you already have Nextflow installed, you can clone the project repository with the following command:\
       ```git clone https://github.com/morgween/DnaCouplesCounter.git```
       
 
