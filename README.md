@@ -22,8 +22,8 @@
       after downloading need to make nextflow executable\
       ```chmod +x nextflow```\
       and add it to the PATH environment variable
-  If you already have nextflow in your PATH:
-      git clone https://github.com/morgween/DnaCouplesCounter.git
+  If you already have nextflow in your PATH:\
+      ```git clone https://github.com/morgween/DnaCouplesCounter.git```
       
 
 ## Usage
