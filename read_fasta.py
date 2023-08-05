@@ -70,8 +70,8 @@ class Sequencer:
         new_file_path = os.path.join(script_dir, 'results')
         if not os.path.exists(new_file_path):
             os.makedirs(new_file_path)
-        os.chdir(new_file_path)
-        plt.savefig('histogram.png')
+        
+        plt.savefig(new_file_path +'/histogram.png')
 
 
 if __name__ == "__main__":
