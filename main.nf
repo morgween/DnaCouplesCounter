@@ -86,6 +86,11 @@ workflow{
             println("Error: localPath and remotePath cannot be specified at the same time")
             exit 1
         }
+        if(params.remoteUser == 'user' || params.i == "path/to/key" || params.serverIP == "127.0.0.1")
+        {
+            println("Error: remoteUser, serverIP and publicKey must be specified")
+            exit 1
+        }
         fasta_ch = fastaFile_fromRemote(params.remotePath, params.remoteUser, params.serverIP, params.i)
     }
     else{
