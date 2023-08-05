@@ -1,18 +1,23 @@
 # About The project
-  The program takes provided a file with DNA sequences and counts DNA pairs, plots the contribution graph (histogram) of the data that was read from the file
-  the project compatible with Linux and any darwyn machines
-  ## Build with:
-  nextflow.io - workflow of the project\
-  Python 3.11.4 - used for data analysis and plot creations\
-  bash - secondary scripts\
-## Requirements
-        nextflow - need to implement full workflow nextflow requirements
-            Bash
-            Java 11 (or later, up to 18)
-            Git
-            Docker
+The DNA Couples Counter is a program that takes a file containing DNA sequences, counts DNA pairs, and plots the contribution graph (histogram) of the data read from the file. The resulting histogram is saved to the results directory in the current working directory.
 
-        python 3.0> - need to run Python code in the script
+The project is compatible with Linux and any Darwin (macOS) machines.
+
+
+
+  The project is compatible with Linux and any darwyn machines
+  ## Build with:
+* Nextflow - Workflow management
+* Python 3.11.4 - Used for data analysis and plot creation
+* Bash - Secondary scripts
+## Requirements
+### Nextflow Requirements
+* Bash
+* Java 11 (or later, up to 18)
+* Git
+* Docker
+ ### Python Requirements
+ * Python 3.0 or later to run the Python scripts in the project
 
 ## Getting started
   If you *don't* have the nextflow on your local machine:\
