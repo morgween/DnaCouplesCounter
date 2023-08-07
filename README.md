@@ -20,7 +20,7 @@ The project is compatible with Linux and any Darwin (macOS) machines.
  * Python 3.0 or later to run the Python scripts in the project
 
 ## Getting started
-  If you *don't* have the nextflow[https://github.com/nextflow-io/nextflow] on your local machine:\
+  If you *don't* have the nextflow[a link https://github.com/nextflow-io/nextflow] on your local machine:\
       - Option 1:  
         ``` curl -s https://get.nextflow.io | bash ```\
       - Option 2:  
