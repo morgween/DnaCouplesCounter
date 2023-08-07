@@ -6,7 +6,7 @@ The project is compatible with Linux and any Darwin (macOS) machines.
 
 
   The project is compatible with Linux and any darwyn machines
-  ## Build with:
+## Build with:
 * Nextflow - Workflow management
 * Python 3.11.4 - Used for data analysis and plot creation
 * Bash - Secondary scripts
@@ -20,7 +20,7 @@ The project is compatible with Linux and any Darwin (macOS) machines.
  * Python 3.0 or later to run the Python scripts in the project
 
 ## Getting started
-  If you *don't* have the nextflow on your local machine:\
+  If you *don't* have the nextflow[https://github.com/nextflow-io/nextflow] on your local machine:\
       - Option 1:  
         ``` curl -s https://get.nextflow.io | bash ```\
       - Option 2:  
