@@ -36,8 +36,8 @@ The project is compatible with Linux and any Darwin (macOS) machines.
 
 ## Usage
   The workflow could be used in 3 different ways, if you already have nextflow installed:
-    1. ``` nextflow main.nf --localPath full/path/to/sequencefile ```
-    2. ``` nextflow main.nf --remotePath remote/path/to/sequencefile --remoteUser yourRemoteUsername --serverIP serverThatContains.faFile --i path/to/publicKey```
+    1. ``` nextflow main.nf --localPath full/path/to/sequencefile ```\
+    2. ``` nextflow main.nf --remotePath remote/path/to/sequencefile\ --remoteUser yourRemoteUsername\ --serverIP serverThatContains.faFile\ --i path/to/publicKey```\
     3. Third option is to enter nextflow.config file and to change\
         ```params.remoteUser = 'user'\
         params.i = "path/to/key"\
