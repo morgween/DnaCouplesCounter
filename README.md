@@ -5,7 +5,6 @@ The project is compatible with Linux and any Darwin (macOS) machines.
 
 
 
-  The project is compatible with Linux and any darwyn machines
 ## Build with:
 * Nextflow - Workflow management
 * Python 3.11.4 - Used for data analysis and plot creation
